@@ -1,4 +1,7 @@
 
+using Microsoft.EntityFrameworkCore;
+using SmartMarket.Models;
+
 namespace SmartMarket
 {
     public class Program
@@ -13,6 +16,7 @@ namespace SmartMarket
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+            builder.Services.AddDbContext<SmartMarketContext>(o => o.UseSqlServer(builder.Configuration.GetConnectionString("Miguel")));
 
             var app = builder.Build();
 
