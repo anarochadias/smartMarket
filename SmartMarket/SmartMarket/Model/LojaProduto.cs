@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace SmartMarket.Models;
+namespace SmartMarket.Model;
 
 public partial class LojaProduto
 {
@@ -9,9 +9,9 @@ public partial class LojaProduto
 
     public int IdLoja { get; set; }
 
-    public decimal Preco { get; set; }
+    public DateTime Data { get; set; }
 
-    public DateTime? Data { get; set; }
+    public decimal Preco { get; set; }
 
     public virtual ICollection<HistoricoProduto> HistoricoProdutos { get; set; } = new List<HistoricoProduto>();
 

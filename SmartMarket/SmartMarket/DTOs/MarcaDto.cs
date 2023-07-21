@@ -1,4 +1,4 @@
-﻿using SmartMarket.Models;
+﻿using SmartMarket.Model;
 
 namespace SmartMarket.DTOs
 {

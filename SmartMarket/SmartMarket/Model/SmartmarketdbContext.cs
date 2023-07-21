@@ -2,15 +2,15 @@
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 
-namespace SmartMarket.Models;
+namespace SmartMarket.Model;
 
-public partial class SmartMarketContext : DbContext
+public partial class SmartmarketdbContext : DbContext
 {
-    public SmartMarketContext()
+    public SmartmarketdbContext()
     {
     }
 
-    public SmartMarketContext(DbContextOptions<SmartMarketContext> options)
+    public SmartmarketdbContext(DbContextOptions<SmartmarketdbContext> options)
         : base(options)
     {
     }
@@ -54,20 +54,20 @@ public partial class SmartMarketContext : DbContext
     public virtual DbSet<User> Users { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        => optionsBuilder.UseSqlServer("name=Miguel");
+        => optionsBuilder.UseSqlServer("name=connect");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Categorium>(entity =>
         {
-            entity.HasKey(e => e.IdCategoria).HasName("PK__Categori__A3C02A10C8D7E3FB");
+            entity.HasKey(e => e.IdCategoria).HasName("PK__Categori__A3C02A1064E55F27");
 
             entity.Property(e => e.Descricao).HasMaxLength(50);
         });
 
         modelBuilder.Entity<DescricaoUnidade>(entity =>
         {
-            entity.HasKey(e => e.IdDescricaoUnidade).HasName("PK__Descrica__8C9765B4CB0C2A5C");
+            entity.HasKey(e => e.IdDescricaoUnidade).HasName("PK__Descrica__8C9765B40331C456");
 
             entity.ToTable("DescricaoUnidade");
 
@@ -152,7 +152,7 @@ public partial class SmartMarketContext : DbContext
 
         modelBuilder.Entity<HistoricoProduto>(entity =>
         {
-            entity.HasKey(e => new { e.IdProduto, e.IdLoja, e.DataFinal }).HasName("PK__Historic__85AC54B1CF7624D7");
+            entity.HasKey(e => new { e.IdProduto, e.IdLoja, e.DataFinal }).HasName("PK__Historic__85AC54B1DE223066");
 
             entity.ToTable("HistoricoProduto");
 
@@ -163,29 +163,29 @@ public partial class SmartMarketContext : DbContext
             entity.HasOne(d => d.Id).WithMany(p => p.HistoricoProdutos)
                 .HasForeignKey(d => new { d.IdProduto, d.IdLoja })
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__HistoricoProduto__160F4887");
+                .HasConstraintName("FK__HistoricoProduto__09A971A2");
         });
 
         modelBuilder.Entity<LinhaListaCompra>(entity =>
         {
-            entity.HasKey(e => new { e.IdListaCompras, e.IdProduto }).HasName("PK__LinhaLis__413371230D500962");
+            entity.HasKey(e => new { e.IdListaCompras, e.IdProduto }).HasName("PK__LinhaLis__413371233067C6A6");
 
             entity.Property(e => e.Quantidade).HasColumnType("decimal(10, 3)");
 
             entity.HasOne(d => d.IdListaComprasNavigation).WithMany(p => p.LinhaListaCompras)
                 .HasForeignKey(d => d.IdListaCompras)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__LinhaList__IdLis__46E78A0C");
+                .HasConstraintName("FK__LinhaList__IdLis__01142BA1");
 
             entity.HasOne(d => d.IdProdutoNavigation).WithMany(p => p.LinhaListaCompras)
                 .HasForeignKey(d => d.IdProduto)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__LinhaList__IdPro__47DBAE45");
+                .HasConstraintName("FK__LinhaList__IdPro__02084FDA");
         });
 
         modelBuilder.Entity<ListaCompra>(entity =>
         {
-            entity.HasKey(e => e.IdListaCompras).HasName("PK__ListaCom__63DBF2E1FAF709C6");
+            entity.HasKey(e => e.IdListaCompras).HasName("PK__ListaCom__63DBF2E1D12B2B60");
 
             entity.Property(e => e.DataHora)
                 .HasDefaultValueSql("(getdate())")
@@ -195,12 +195,12 @@ public partial class SmartMarketContext : DbContext
             entity.HasOne(d => d.IdUserNavigation).WithMany(p => p.ListaCompras)
                 .HasForeignKey(d => d.IdUser)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__ListaComp__IdUse__30F848ED");
+                .HasConstraintName("FK__ListaComp__IdUse__6B24EA82");
         });
 
         modelBuilder.Entity<Localizacao>(entity =>
         {
-            entity.HasKey(e => e.IdConcelho).HasName("PK__Localiza__376BBFE0C904F232");
+            entity.HasKey(e => e.IdConcelho).HasName("PK__Localiza__376BBFE08DB61598");
 
             entity.ToTable("Localizacao");
 
@@ -209,7 +209,7 @@ public partial class SmartMarketContext : DbContext
 
         modelBuilder.Entity<Login>(entity =>
         {
-            entity.HasKey(e => e.IdUser).HasName("PK__Login__B7C92638F04D5C6B");
+            entity.HasKey(e => e.IdUser).HasName("PK__Login__B7C92638FB1E21A3");
 
             entity.ToTable("Login");
 
@@ -220,12 +220,12 @@ public partial class SmartMarketContext : DbContext
             entity.HasOne(d => d.IdUserNavigation).WithOne(p => p.Login)
                 .HasForeignKey<Login>(d => d.IdUser)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Login__IdUser__2B3F6F97");
+                .HasConstraintName("FK__Login__IdUser__656C112C");
         });
 
         modelBuilder.Entity<Loja>(entity =>
         {
-            entity.HasKey(e => e.IdLoja).HasName("PK__Loja__38C45D6403F7744B");
+            entity.HasKey(e => e.IdLoja).HasName("PK__Loja__38C45D64031D2D87");
 
             entity.ToTable("Loja");
 
@@ -234,12 +234,12 @@ public partial class SmartMarketContext : DbContext
             entity.HasOne(d => d.IdConcelhoNavigation).WithMany(p => p.Lojas)
                 .HasForeignKey(d => d.IdConcelho)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Loja__IdConcelho__33D4B598");
+                .HasConstraintName("FK__Loja__IdConcelho__6E01572D");
         });
 
         modelBuilder.Entity<LojaProduto>(entity =>
         {
-            entity.HasKey(e => new { e.IdProduto, e.IdLoja }).HasName("PK__LojaProd__7D0479F510191B76");
+            entity.HasKey(e => new { e.IdProduto, e.IdLoja }).HasName("PK__LojaProd__7D0479F582A904B6");
 
             entity.ToTable("LojaProduto", tb => tb.HasTrigger("InsertHistoricoProdutoOnLojaProdutoUpdate"));
 
@@ -249,17 +249,17 @@ public partial class SmartMarketContext : DbContext
             entity.HasOne(d => d.IdLojaNavigation).WithMany(p => p.LojaProdutos)
                 .HasForeignKey(d => d.IdLoja)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__LojaProdu__IdLoj__4BAC3F29");
+                .HasConstraintName("FK__LojaProdu__IdLoj__05D8E0BE");
 
             entity.HasOne(d => d.IdProdutoNavigation).WithMany(p => p.LojaProdutos)
                 .HasForeignKey(d => d.IdProduto)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__LojaProdu__IdPro__4AB81AF0");
+                .HasConstraintName("FK__LojaProdu__IdPro__04E4BC85");
         });
 
         modelBuilder.Entity<Marca>(entity =>
         {
-            entity.HasKey(e => e.IdMarca).HasName("PK__Marca__4076A887BD82C39C");
+            entity.HasKey(e => e.IdMarca).HasName("PK__Marca__4076A88714219C5A");
 
             entity.ToTable("Marca");
 
@@ -268,7 +268,7 @@ public partial class SmartMarketContext : DbContext
 
         modelBuilder.Entity<Produto>(entity =>
         {
-            entity.HasKey(e => e.IdProduto).HasName("PK__Produto__2E883C2352076DA7");
+            entity.HasKey(e => e.IdProduto).HasName("PK__Produto__2E883C233DB17EE7");
 
             entity.ToTable("Produto");
 
@@ -279,38 +279,38 @@ public partial class SmartMarketContext : DbContext
             entity.HasOne(d => d.IdDescricaoUnidadeNavigation).WithMany(p => p.Produtos)
                 .HasForeignKey(d => d.IdDescricaoUnidade)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Produto__IdDescr__440B1D61");
+                .HasConstraintName("FK__Produto__IdDescr__7E37BEF6");
 
             entity.HasOne(d => d.IdMarcaNavigation).WithMany(p => p.Produtos)
                 .HasForeignKey(d => d.IdMarca)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Produto__IdMarca__4316F928");
+                .HasConstraintName("FK__Produto__IdMarca__7D439ABD");
 
             entity.HasOne(d => d.IdSubCategoriaNavigation).WithMany(p => p.Produtos)
                 .HasForeignKey(d => d.IdSubCategoria)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Produto__IdSubCa__4222D4EF");
+                .HasConstraintName("FK__Produto__IdSubCa__7C4F7684");
         });
 
         modelBuilder.Entity<SubCategorium>(entity =>
         {
-            entity.HasKey(e => e.IdSubCategoria).HasName("PK__SubCateg__0A1EFFE501508A67");
+            entity.HasKey(e => e.IdSubCategoria).HasName("PK__SubCateg__0A1EFFE5B94D7007");
 
             entity.Property(e => e.Descricao).HasMaxLength(60);
 
             entity.HasOne(d => d.IdCategoriaNavigation).WithMany(p => p.SubCategoria)
                 .HasForeignKey(d => d.IdCategoria)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__SubCatego__IdCat__38996AB5");
+                .HasConstraintName("FK__SubCatego__IdCat__72C60C4A");
         });
 
         modelBuilder.Entity<User>(entity =>
         {
-            entity.HasKey(e => e.IdUser).HasName("PK__User__B7C9263814F83920");
+            entity.HasKey(e => e.IdUser).HasName("PK__User__B7C9263874C4C580");
 
             entity.ToTable("User");
 
-            entity.HasIndex(e => e.Email, "UQ__User__A9D105344701ACE8").IsUnique();
+            entity.HasIndex(e => e.Email, "UQ__User__A9D10534FB3FD253").IsUnique();
 
             entity.Property(e => e.Apelido).HasMaxLength(100);
             entity.Property(e => e.CodigoPostal)
@@ -328,7 +328,7 @@ public partial class SmartMarketContext : DbContext
             entity.HasOne(d => d.IdConcelhoNavigation).WithMany(p => p.Users)
                 .HasForeignKey(d => d.IdConcelho)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__User__IdConcelho__276EDEB3");
+                .HasConstraintName("FK__User__IdConcelho__619B8048");
 
             entity.HasMany(d => d.IdProdutos).WithMany(p => p.IdUsers)
                 .UsingEntity<Dictionary<string, object>>(
@@ -336,14 +336,14 @@ public partial class SmartMarketContext : DbContext
                     r => r.HasOne<Produto>().WithMany()
                         .HasForeignKey("IdProduto")
                         .OnDelete(DeleteBehavior.ClientSetNull)
-                        .HasConstraintName("FK__ListaFavo__IdPro__5441852A"),
+                        .HasConstraintName("FK__ListaFavo__IdPro__0E6E26BF"),
                     l => l.HasOne<User>().WithMany()
                         .HasForeignKey("IdUser")
                         .OnDelete(DeleteBehavior.ClientSetNull)
-                        .HasConstraintName("FK__ListaFavo__IdUse__534D60F1"),
+                        .HasConstraintName("FK__ListaFavo__IdUse__0D7A0286"),
                     j =>
                     {
-                        j.HasKey("IdUser", "IdProduto").HasName("PK__ListaFav__9521A5FA6425CDF1");
+                        j.HasKey("IdUser", "IdProduto").HasName("PK__ListaFav__9521A5FAFDD26ECC");
                         j.ToTable("ListaFavoritos");
                     });
         });

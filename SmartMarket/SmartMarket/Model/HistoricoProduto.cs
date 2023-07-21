@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace SmartMarket.Models;
+namespace SmartMarket.Model;
 
 public partial class HistoricoProduto
 {

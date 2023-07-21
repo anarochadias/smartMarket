@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace SmartMarket.Models;
+namespace SmartMarket.Model;
 
-public partial class GetProdutoPorMarca
+public partial class GetProdutoPorCategorium
 {
     public string NomeProduto { get; set; } = null!;
 
@@ -17,5 +17,5 @@ public partial class GetProdutoPorMarca
 
     public bool IsGlutenFree { get; set; }
 
-    public string Marca { get; set; } = null!;
+    public string Categoria { get; set; } = null!;
 }

@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SmartMarket.DTOs;
-using SmartMarket.Models;
+using SmartMarket.Model;
 
 namespace SmartMarket.Controllers
 {
@@ -10,9 +10,9 @@ namespace SmartMarket.Controllers
     [ApiController]
     public class MarcasController : ControllerBase
     {
-        private readonly SmartMarketContext _context;
+        private readonly SmartmarketdbContext _context;
 
-        public MarcasController(SmartMarketContext context)
+        public MarcasController(SmartmarketdbContext context)
         {
             _context = context;
         }
