@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\filip\\OneDrive\\Ambiente de Trabalho\\SmartMarket\\smartMarket\\SmartMarket\\SmartMarket\\SmartMarket.csproj": {}
+    "C:\\Users\\filip\\OneDrive\\Ambiente de Trabalho\\Working\\SmartMarket\\SmartMarket\\SmartMarket.csproj": {}
   },
   "projects": {
-    "C:\\Users\\filip\\OneDrive\\Ambiente de Trabalho\\SmartMarket\\smartMarket\\SmartMarket\\SmartMarket\\SmartMarket.csproj": {
+    "C:\\Users\\filip\\OneDrive\\Ambiente de Trabalho\\Working\\SmartMarket\\SmartMarket\\SmartMarket.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\filip\\OneDrive\\Ambiente de Trabalho\\SmartMarket\\smartMarket\\SmartMarket\\SmartMarket\\SmartMarket.csproj",
+        "projectUniqueName": "C:\\Users\\filip\\OneDrive\\Ambiente de Trabalho\\Working\\SmartMarket\\SmartMarket\\SmartMarket.csproj",
         "projectName": "SmartMarket",
-        "projectPath": "C:\\Users\\filip\\OneDrive\\Ambiente de Trabalho\\SmartMarket\\smartMarket\\SmartMarket\\SmartMarket\\SmartMarket.csproj",
+        "projectPath": "C:\\Users\\filip\\OneDrive\\Ambiente de Trabalho\\Working\\SmartMarket\\SmartMarket\\SmartMarket.csproj",
         "packagesPath": "C:\\Users\\filip\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\filip\\OneDrive\\Ambiente de Trabalho\\SmartMarket\\smartMarket\\SmartMarket\\SmartMarket\\obj\\",
+        "outputPath": "C:\\Users\\filip\\OneDrive\\Ambiente de Trabalho\\Working\\SmartMarket\\SmartMarket\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cbtLs0ds6EkUF1c1PBcxO8Z4GIUa6Zdx/oDuReGg6CtiE8Et+LETNgx8G9T1/4y8yPYn/uLsAsmWloxPC+TtQA==",
+  "dgSpecHash": "cLGgo2dfU0NqWMNHwyS0sLDtD5A7mz3TcntU5sIILBStrN8q33WDwSwbmLg+bp8CBVN7w9xNuyIh3paXabIseg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\filip\\OneDrive\\Ambiente de Trabalho\\SmartMarket\\smartMarket\\SmartMarket\\SmartMarket\\SmartMarket.csproj",
+  "projectFilePath": "C:\\Users\\filip\\OneDrive\\Ambiente de Trabalho\\Working\\SmartMarket\\SmartMarket\\SmartMarket.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\filip\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\filip\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
@@ -79,5 +79,12 @@
     "C:\\Users\\filip\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\filip\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\filip\\OneDrive\\Ambiente de Trabalho\\Working\\SmartMarket\\SmartMarket\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
