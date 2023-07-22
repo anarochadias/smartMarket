@@ -3912,19 +3912,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Claudia Quintas\\.nuget\\packages\\": {}
+    "C:\\Users\\filip\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Claudia Quintas\\Desktop\\UpSkill\\Bases de dados\\SmartMarket\\App\\SmartMarket\\SmartMarket\\SmartMarket.csproj",
+      "projectUniqueName": "C:\\Users\\filip\\OneDrive\\Ambiente de Trabalho\\SmartMarket\\smartMarket\\SmartMarket\\SmartMarket\\SmartMarket.csproj",
       "projectName": "SmartMarket",
-      "projectPath": "C:\\Users\\Claudia Quintas\\Desktop\\UpSkill\\Bases de dados\\SmartMarket\\App\\SmartMarket\\SmartMarket\\SmartMarket.csproj",
-      "packagesPath": "C:\\Users\\Claudia Quintas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Claudia Quintas\\Desktop\\UpSkill\\Bases de dados\\SmartMarket\\App\\SmartMarket\\SmartMarket\\obj\\",
+      "projectPath": "C:\\Users\\filip\\OneDrive\\Ambiente de Trabalho\\SmartMarket\\smartMarket\\SmartMarket\\SmartMarket\\SmartMarket.csproj",
+      "packagesPath": "C:\\Users\\filip\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\filip\\OneDrive\\Ambiente de Trabalho\\SmartMarket\\smartMarket\\SmartMarket\\SmartMarket\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Claudia Quintas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\filip\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
