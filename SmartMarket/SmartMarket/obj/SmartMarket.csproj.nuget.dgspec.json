@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Claudia Quintas\\Desktop\\UpSkill\\Bases de dados\\SmartMarket\\App\\SmartMarket\\SmartMarket\\SmartMarket.csproj": {}
+    "E:\\smartMarket\\SmartMarket\\SmartMarket\\SmartMarket.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Claudia Quintas\\Desktop\\UpSkill\\Bases de dados\\SmartMarket\\App\\SmartMarket\\SmartMarket\\SmartMarket.csproj": {
+    "E:\\smartMarket\\SmartMarket\\SmartMarket\\SmartMarket.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Claudia Quintas\\Desktop\\UpSkill\\Bases de dados\\SmartMarket\\App\\SmartMarket\\SmartMarket\\SmartMarket.csproj",
+        "projectUniqueName": "E:\\smartMarket\\SmartMarket\\SmartMarket\\SmartMarket.csproj",
         "projectName": "SmartMarket",
-        "projectPath": "C:\\Users\\Claudia Quintas\\Desktop\\UpSkill\\Bases de dados\\SmartMarket\\App\\SmartMarket\\SmartMarket\\SmartMarket.csproj",
-        "packagesPath": "C:\\Users\\Claudia Quintas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Claudia Quintas\\Desktop\\UpSkill\\Bases de dados\\SmartMarket\\App\\SmartMarket\\SmartMarket\\obj\\",
+        "projectPath": "E:\\smartMarket\\SmartMarket\\SmartMarket\\SmartMarket.csproj",
+        "packagesPath": "C:\\Users\\Inês Alves\\.nuget\\packages\\",
+        "outputPath": "E:\\smartMarket\\SmartMarket\\SmartMarket\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Claudia Quintas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Inês Alves\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
