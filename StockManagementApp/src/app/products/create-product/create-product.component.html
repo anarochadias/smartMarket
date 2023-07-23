@@ -1,0 +1,26 @@
+<form (submit)="createNewProduct(createProductForm)" #createProductForm="ngForm">
+    <div class="form-row">
+        <div class="form-group mt-3">
+            <label for="inputCode">Product code</label>
+            <input type="text" class="form-control" id="inputCode" placeholder="PROD001" name="productId" ngModel>
+        </div>
+        <div class="form-group mt-3">
+            <label for="inputName">Product name</label>
+            <input type="text" class="form-control" id="inputName" placeholder="TV LCD
+    ..." name="productName" ngModel>
+        </div>
+        <div class="form-row mt-3">
+            <label for="inputFamily">Family code</label>
+            <input type="text" class="form-control" id="inputFamily" name="familyId" ngModel>
+        </div>
+        <div class="form-row mt-3">
+            <label for="inputEan">EAN code</label>
+            <input type="text" class="form-control" id="inputEan" name="ean13code" ngModel>
+        </div>
+        <div class="form-row mt-3">
+            <label for="inputObs">Obs</label>
+            <textarea class="form-control" id="textObs" name="obs" ngModel></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary mt-3">Create</button>
+    </div>
+</form>
