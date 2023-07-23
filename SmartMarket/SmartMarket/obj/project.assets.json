@@ -3912,19 +3912,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Inês Alves\\.nuget\\packages\\": {}
+    "C:\\Users\\ana\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\smartMarket_test\\SmartMarket\\SmartMarket\\SmartMarket.csproj",
+      "projectUniqueName": "H:\\webdev2\\tp\\smartMarket\\SmartMarket\\SmartMarket\\SmartMarket.csproj",
       "projectName": "SmartMarket",
-      "projectPath": "E:\\smartMarket_test\\SmartMarket\\SmartMarket\\SmartMarket.csproj",
-      "packagesPath": "C:\\Users\\Inês Alves\\.nuget\\packages\\",
-      "outputPath": "E:\\smartMarket_test\\SmartMarket\\SmartMarket\\obj\\",
+      "projectPath": "H:\\webdev2\\tp\\smartMarket\\SmartMarket\\SmartMarket\\SmartMarket.csproj",
+      "packagesPath": "C:\\Users\\ana\\.nuget\\packages\\",
+      "outputPath": "H:\\webdev2\\tp\\smartMarket\\SmartMarket\\SmartMarket\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Inês Alves\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ana\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3932,6 +3932,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3998,7 +3999,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   }
