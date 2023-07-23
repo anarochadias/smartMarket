@@ -74,160 +74,6 @@ C:\Users\Claudia Quintas\Desktop\UpSkill\Bases de dados\SmartMarket\App\SmartMar
 C:\Users\Claudia Quintas\Desktop\UpSkill\Bases de dados\SmartMarket\App\SmartMarket\SmartMarket\obj\Debug\net7.0\SmartMarket.pdb
 C:\Users\Claudia Quintas\Desktop\UpSkill\Bases de dados\SmartMarket\App\SmartMarket\SmartMarket\obj\Debug\net7.0\SmartMarket.genruntimeconfig.cache
 C:\Users\Claudia Quintas\Desktop\UpSkill\Bases de dados\SmartMarket\App\SmartMarket\SmartMarket\obj\Debug\net7.0\ref\SmartMarket.dll
-<<<<<<< HEAD
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\bin\Debug\net7.0\appsettings.Development.json
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\bin\Debug\net7.0\appsettings.json
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\bin\Debug\net7.0\SmartMarket.exe
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\bin\Debug\net7.0\SmartMarket.deps.json
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\bin\Debug\net7.0\SmartMarket.runtimeconfig.json
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\bin\Debug\net7.0\SmartMarket.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\bin\Debug\net7.0\SmartMarket.pdb
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\bin\Debug\net7.0\Azure.Core.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\bin\Debug\net7.0\Azure.Identity.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\bin\Debug\net7.0\Humanizer.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\bin\Debug\net7.0\Microsoft.Identity.Client.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\bin\Debug\net7.0\Microsoft.OpenApi.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\bin\Debug\net7.0\Mono.TextTemplating.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\bin\Debug\net7.0\System.CodeDom.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\bin\Debug\net7.0\System.Drawing.Common.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\bin\Debug\net7.0\System.Memory.Data.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\bin\Debug\net7.0\System.Runtime.Caching.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\bin\Debug\net7.0\System.Security.Permissions.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\bin\Debug\net7.0\System.Windows.Extensions.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\obj\Debug\net7.0\SmartMarket.csproj.AssemblyReference.cache
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\obj\Debug\net7.0\SmartMarket.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\obj\Debug\net7.0\SmartMarket.AssemblyInfoInputs.cache
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\obj\Debug\net7.0\SmartMarket.AssemblyInfo.cs
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\obj\Debug\net7.0\SmartMarket.csproj.CoreCompileInputs.cache
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\obj\Debug\net7.0\SmartMarket.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\obj\Debug\net7.0\SmartMarket.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\obj\Debug\net7.0\staticwebassets\msbuild.SmartMarket.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\obj\Debug\net7.0\staticwebassets\msbuild.build.SmartMarket.props
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.SmartMarket.props
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.SmartMarket.props
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\obj\Debug\net7.0\staticwebassets.pack.json
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\obj\Debug\net7.0\staticwebassets.build.json
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\obj\Debug\net7.0\staticwebassets.development.json
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\obj\Debug\net7.0\scopedcss\bundle\SmartMarket.styles.css
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\obj\Debug\net7.0\SmartMarket.csproj.CopyComplete
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\obj\Debug\net7.0\SmartMarket.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\obj\Debug\net7.0\refint\SmartMarket.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\obj\Debug\net7.0\SmartMarket.pdb
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\obj\Debug\net7.0\SmartMarket.genruntimeconfig.cache
-C:\Users\filip\OneDrive\Ambiente de Trabalho\SmartMarket\smartMarket\SmartMarket\SmartMarket\obj\Debug\net7.0\ref\SmartMarket.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\obj\Debug\net7.0\SmartMarket.csproj.AssemblyReference.cache
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\obj\Debug\net7.0\SmartMarket.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\obj\Debug\net7.0\SmartMarket.AssemblyInfoInputs.cache
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\obj\Debug\net7.0\SmartMarket.AssemblyInfo.cs
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\obj\Debug\net7.0\SmartMarket.csproj.CoreCompileInputs.cache
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\obj\Debug\net7.0\SmartMarket.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\obj\Debug\net7.0\SmartMarket.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\obj\Debug\net7.0\SmartMarket.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\obj\Debug\net7.0\refint\SmartMarket.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\obj\Debug\net7.0\SmartMarket.pdb
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\bin\Debug\net7.0\appsettings.Development.json
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\bin\Debug\net7.0\appsettings.json
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\bin\Debug\net7.0\SmartMarket.exe
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\bin\Debug\net7.0\SmartMarket.deps.json
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\bin\Debug\net7.0\SmartMarket.runtimeconfig.json
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\bin\Debug\net7.0\SmartMarket.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\bin\Debug\net7.0\SmartMarket.pdb
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\bin\Debug\net7.0\Azure.Core.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\bin\Debug\net7.0\Azure.Identity.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\bin\Debug\net7.0\Humanizer.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\bin\Debug\net7.0\Microsoft.Identity.Client.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\bin\Debug\net7.0\Microsoft.OpenApi.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\bin\Debug\net7.0\Mono.TextTemplating.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\bin\Debug\net7.0\System.CodeDom.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\bin\Debug\net7.0\System.Drawing.Common.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\bin\Debug\net7.0\System.Memory.Data.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\bin\Debug\net7.0\System.Runtime.Caching.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\bin\Debug\net7.0\System.Security.Permissions.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\bin\Debug\net7.0\System.Windows.Extensions.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\obj\Debug\net7.0\staticwebassets\msbuild.SmartMarket.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\obj\Debug\net7.0\staticwebassets\msbuild.build.SmartMarket.props
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.SmartMarket.props
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.SmartMarket.props
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\obj\Debug\net7.0\staticwebassets.pack.json
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\obj\Debug\net7.0\staticwebassets.build.json
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\obj\Debug\net7.0\staticwebassets.development.json
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\obj\Debug\net7.0\scopedcss\bundle\SmartMarket.styles.css
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\obj\Debug\net7.0\SmartMarket.csproj.CopyComplete
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\obj\Debug\net7.0\SmartMarket.genruntimeconfig.cache
-C:\Users\filip\OneDrive\Ambiente de Trabalho\Working\SmartMarket\SmartMarket\obj\Debug\net7.0\ref\SmartMarket.dll
-=======
 E:\smartMarket\SmartMarket\SmartMarket\bin\Debug\net7.0\appsettings.Development.json
 E:\smartMarket\SmartMarket\SmartMarket\bin\Debug\net7.0\appsettings.json
 E:\smartMarket\SmartMarket\SmartMarket\bin\Debug\net7.0\SmartMarket.exe
@@ -304,4 +150,79 @@ E:\smartMarket\SmartMarket\SmartMarket\obj\Debug\net7.0\refint\SmartMarket.dll
 E:\smartMarket\SmartMarket\SmartMarket\obj\Debug\net7.0\SmartMarket.pdb
 E:\smartMarket\SmartMarket\SmartMarket\obj\Debug\net7.0\SmartMarket.genruntimeconfig.cache
 E:\smartMarket\SmartMarket\SmartMarket\obj\Debug\net7.0\ref\SmartMarket.dll
->>>>>>> f0d945c5d4f00de1ace83bb7d9fbb6a5fe1fb243
+E:\smartMarket_test\SmartMarket\SmartMarket\obj\Debug\net7.0\SmartMarket.csproj.AssemblyReference.cache
+E:\smartMarket_test\SmartMarket\SmartMarket\obj\Debug\net7.0\SmartMarket.GeneratedMSBuildEditorConfig.editorconfig
+E:\smartMarket_test\SmartMarket\SmartMarket\obj\Debug\net7.0\SmartMarket.AssemblyInfoInputs.cache
+E:\smartMarket_test\SmartMarket\SmartMarket\obj\Debug\net7.0\SmartMarket.AssemblyInfo.cs
+E:\smartMarket_test\SmartMarket\SmartMarket\obj\Debug\net7.0\SmartMarket.csproj.CoreCompileInputs.cache
+E:\smartMarket_test\SmartMarket\SmartMarket\obj\Debug\net7.0\SmartMarket.MvcApplicationPartsAssemblyInfo.cs
+E:\smartMarket_test\SmartMarket\SmartMarket\obj\Debug\net7.0\SmartMarket.MvcApplicationPartsAssemblyInfo.cache
+E:\smartMarket_test\SmartMarket\SmartMarket\obj\Debug\net7.0\SmartMarket.dll
+E:\smartMarket_test\SmartMarket\SmartMarket\obj\Debug\net7.0\refint\SmartMarket.dll
+E:\smartMarket_test\SmartMarket\SmartMarket\obj\Debug\net7.0\SmartMarket.pdb
+E:\smartMarket_test\SmartMarket\SmartMarket\bin\Debug\net7.0\appsettings.Development.json
+E:\smartMarket_test\SmartMarket\SmartMarket\bin\Debug\net7.0\appsettings.json
+E:\smartMarket_test\SmartMarket\SmartMarket\bin\Debug\net7.0\SmartMarket.exe
+E:\smartMarket_test\SmartMarket\SmartMarket\bin\Debug\net7.0\SmartMarket.deps.json
+E:\smartMarket_test\SmartMarket\SmartMarket\bin\Debug\net7.0\SmartMarket.runtimeconfig.json
+E:\smartMarket_test\SmartMarket\SmartMarket\bin\Debug\net7.0\SmartMarket.dll
+E:\smartMarket_test\SmartMarket\SmartMarket\bin\Debug\net7.0\SmartMarket.pdb
+E:\smartMarket_test\SmartMarket\SmartMarket\bin\Debug\net7.0\Azure.Core.dll
+E:\smartMarket_test\SmartMarket\SmartMarket\bin\Debug\net7.0\Azure.Identity.dll
+E:\smartMarket_test\SmartMarket\SmartMarket\bin\Debug\net7.0\Humanizer.dll
+E:\smartMarket_test\SmartMarket\SmartMarket\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+E:\smartMarket_test\SmartMarket\SmartMarket\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\smartMarket_test\SmartMarket\SmartMarket\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+E:\smartMarket_test\SmartMarket\SmartMarket\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+E:\smartMarket_test\SmartMarket\SmartMarket\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\smartMarket_test\SmartMarket\SmartMarket\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\smartMarket_test\SmartMarket\SmartMarket\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\smartMarket_test\SmartMarket\SmartMarket\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\smartMarket_test\SmartMarket\SmartMarket\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+E:\smartMarket_test\SmartMarket\SmartMarket\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+E:\smartMarket_test\SmartMarket\SmartMarket\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\smartMarket_test\SmartMarket\SmartMarket\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+E:\smartMarket_test\SmartMarket\SmartMarket\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\smartMarket_test\SmartMarket\SmartMarket\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+E:\smartMarket_test\SmartMarket\SmartMarket\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+E:\smartMarket_test\SmartMarket\SmartMarket\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\smartMarket_test\SmartMarket\SmartMarket\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+E:\smartMarket_test\SmartMarket\SmartMarket\bin\Debug\net7.0\Microsoft.OpenApi.dll
+E:\smartMarket_test\SmartMarket\SmartMarket\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+E:\smartMarket_test\SmartMarket\SmartMarket\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+E:\smartMarket_test\SmartMarket\SmartMarket\bin\Debug\net7.0\Mono.TextTemplating.dll
+E:\smartMarket_test\SmartMarket\SmartMarket\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\smartMarket_test\SmartMarket\SmartMarket\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\smartMarket_test\SmartMarket\SmartMarket\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\smartMarket_test\SmartMarket\SmartMarket\bin\Debug\net7.0\System.CodeDom.dll
+E:\smartMarket_test\SmartMarket\SmartMarket\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+E:\smartMarket_test\SmartMarket\SmartMarket\bin\Debug\net7.0\System.Drawing.Common.dll
+E:\smartMarket_test\SmartMarket\SmartMarket\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+E:\smartMarket_test\SmartMarket\SmartMarket\bin\Debug\net7.0\System.Memory.Data.dll
+E:\smartMarket_test\SmartMarket\SmartMarket\bin\Debug\net7.0\System.Runtime.Caching.dll
+E:\smartMarket_test\SmartMarket\SmartMarket\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+E:\smartMarket_test\SmartMarket\SmartMarket\bin\Debug\net7.0\System.Security.Permissions.dll
+E:\smartMarket_test\SmartMarket\SmartMarket\bin\Debug\net7.0\System.Windows.Extensions.dll
+E:\smartMarket_test\SmartMarket\SmartMarket\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\smartMarket_test\SmartMarket\SmartMarket\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\smartMarket_test\SmartMarket\SmartMarket\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\smartMarket_test\SmartMarket\SmartMarket\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\smartMarket_test\SmartMarket\SmartMarket\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\smartMarket_test\SmartMarket\SmartMarket\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\smartMarket_test\SmartMarket\SmartMarket\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\smartMarket_test\SmartMarket\SmartMarket\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\smartMarket_test\SmartMarket\SmartMarket\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\smartMarket_test\SmartMarket\SmartMarket\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\smartMarket_test\SmartMarket\SmartMarket\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\smartMarket_test\SmartMarket\SmartMarket\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\smartMarket_test\SmartMarket\SmartMarket\obj\Debug\net7.0\staticwebassets\msbuild.SmartMarket.Microsoft.AspNetCore.StaticWebAssets.props
+E:\smartMarket_test\SmartMarket\SmartMarket\obj\Debug\net7.0\staticwebassets\msbuild.build.SmartMarket.props
+E:\smartMarket_test\SmartMarket\SmartMarket\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.SmartMarket.props
+E:\smartMarket_test\SmartMarket\SmartMarket\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.SmartMarket.props
+E:\smartMarket_test\SmartMarket\SmartMarket\obj\Debug\net7.0\staticwebassets.pack.json
+E:\smartMarket_test\SmartMarket\SmartMarket\obj\Debug\net7.0\staticwebassets.build.json
+E:\smartMarket_test\SmartMarket\SmartMarket\obj\Debug\net7.0\staticwebassets.development.json
+E:\smartMarket_test\SmartMarket\SmartMarket\obj\Debug\net7.0\scopedcss\bundle\SmartMarket.styles.css
+E:\smartMarket_test\SmartMarket\SmartMarket\obj\Debug\net7.0\SmartMarket.csproj.CopyComplete
+E:\smartMarket_test\SmartMarket\SmartMarket\obj\Debug\net7.0\SmartMarket.genruntimeconfig.cache
+E:\smartMarket_test\SmartMarket\SmartMarket\obj\Debug\net7.0\ref\SmartMarket.dll
