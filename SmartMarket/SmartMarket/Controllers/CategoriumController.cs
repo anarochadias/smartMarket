@@ -6,7 +6,7 @@ using SmartMarket.Model;
 
 namespace SmartMarket.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/Categorias")]
     [ApiController]
     public class CategoriumController : ControllerBase
     {
