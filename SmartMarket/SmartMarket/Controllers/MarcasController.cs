@@ -57,14 +57,16 @@ namespace SmartMarket.Controllers
 
         // PUT api/<MarcaController>
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateMarca(int id, Marca marca)
+        public async Task<IActionResult> UpdateMarca(int id, MarcaDto marca)
         {
             if (id != marca.IdMarca)
             {
                 return BadRequest();
             }
 
-            _context.Entry(marca).State = EntityState.Modified;
+            Marca marcaModel = marca.DtoToMarcaModel();
+
+            _context.Entry(marcaModel).State = EntityState.Modified;
 
             try
             {

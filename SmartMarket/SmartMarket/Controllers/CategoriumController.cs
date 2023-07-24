@@ -43,7 +43,7 @@ namespace SmartMarket.Controllers
         public async Task<ActionResult<Categorium>> CreateCategorium(CategoriumDto categorium)
         {
             Categorium categorium1 = new Categorium();
-            categorium1 = categorium.DtoToCategorium();
+            categorium1 = categorium.DtoToCategoriumModel();
 
             _context.Categoria.Add(categorium1);
 
@@ -54,14 +54,16 @@ namespace SmartMarket.Controllers
         }
         // PUT api/<CategoriumController>
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateCategorium(int id, Categorium categorium)
+        public async Task<IActionResult> UpdateCategorium(int id, CategoriumDto categorium)
         {
-            if (id != categorium.IdCategoria)
+            if (id != categorium.IdCategorium)
             {
                 return BadRequest();
             }
 
-            _context.Entry(categorium).State = EntityState.Modified;
+            Categorium categoriumModel = categorium.DtoToCategoriumModel();
+
+            _context.Entry(categoriumModel).State = EntityState.Modified;
 
             try
             {

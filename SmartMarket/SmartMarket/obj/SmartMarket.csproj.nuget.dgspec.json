@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\webdev2\\tp\\smartMarket\\SmartMarket\\SmartMarket\\SmartMarket.csproj": {}
+    "H:\\webdev2\\tp\\work here\\SmartMarket\\SmartMarket\\SmartMarket.csproj": {}
   },
   "projects": {
-    "H:\\webdev2\\tp\\smartMarket\\SmartMarket\\SmartMarket\\SmartMarket.csproj": {
+    "H:\\webdev2\\tp\\work here\\SmartMarket\\SmartMarket\\SmartMarket.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\webdev2\\tp\\smartMarket\\SmartMarket\\SmartMarket\\SmartMarket.csproj",
+        "projectUniqueName": "H:\\webdev2\\tp\\work here\\SmartMarket\\SmartMarket\\SmartMarket.csproj",
         "projectName": "SmartMarket",
-        "projectPath": "H:\\webdev2\\tp\\smartMarket\\SmartMarket\\SmartMarket\\SmartMarket.csproj",
+        "projectPath": "H:\\webdev2\\tp\\work here\\SmartMarket\\SmartMarket\\SmartMarket.csproj",
         "packagesPath": "C:\\Users\\ana\\.nuget\\packages\\",
-        "outputPath": "H:\\webdev2\\tp\\smartMarket\\SmartMarket\\SmartMarket\\obj\\",
+        "outputPath": "H:\\webdev2\\tp\\work here\\SmartMarket\\SmartMarket\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ana\\AppData\\Roaming\\NuGet\\NuGet.Config",

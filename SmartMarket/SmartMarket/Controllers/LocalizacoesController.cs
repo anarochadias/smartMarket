@@ -56,14 +56,17 @@ namespace SmartMarket.Controllers
 
         // PUT api/<LocalizacaoController>
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateLocalizacao(int id, Localizacao localizacao)
+        public async Task<IActionResult> UpdateLocalizacao(int id, LocalizacaoDto localizacao)
         {
             if (id != localizacao.IdConcelho)
             {
                 return BadRequest();
             }
 
-            _context.Entry(localizacao).State = EntityState.Modified;
+            //passar de dto pa model
+            Localizacao localizacaoModel = localizacao.DtoToLocalizacaoModel();
+
+            _context.Entry(localizacaoModel).State = EntityState.Modified;
 
             try
             {

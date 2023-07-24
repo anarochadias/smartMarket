@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SmartMarket.DTOs;
 using SmartMarket.Model;
+using System.Text.RegularExpressions;
 
 namespace SmartMarket.Controllers
 {
@@ -57,14 +58,16 @@ namespace SmartMarket.Controllers
 
         // PUT api/<MarcaController>
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateDescricaoUnidade(int id, DescricaoUnidade descricaoUnidade)
+        public async Task<IActionResult> UpdateDescricaoUnidade(int id, DescricaoUnidadeDto descricaoUnidade)
         {
             if (id != descricaoUnidade.IdDescricaoUnidade)
             {
                 return BadRequest();
             }
 
-            _context.Entry(descricaoUnidade).State = EntityState.Modified;
+            DescricaoUnidade descricaoUnidadeModel = descricaoUnidade.DtoToDescricaoUnidadeModel();
+
+            _context.Entry(descricaoUnidadeModel).State = EntityState.Modified;
 
             try
             {

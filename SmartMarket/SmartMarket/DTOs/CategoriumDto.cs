@@ -9,21 +9,21 @@ namespace SmartMarket.DTOs
         public string Descricao { get; set; } = null!;
 
 
-        public Categorium DtoToCategorium()
+        public Categorium DtoToCategoriumModel()
         {
-            Categorium categorium = new Categorium
+            Categorium categorium = new Categorium()
             {
                 IdCategoria = this.IdCategorium,
                 Descricao = this.Descricao
             };
             return categorium;
         }
-        public CategoriumDto ProductModelToDto(Categorium categorium)
+        public CategoriumDto CategoriumModelToDto(Categorium categorium)
         {
-            CategoriumDto dto = new CategoriumDto
+            CategoriumDto dto = new CategoriumDto()
             {
-                IdCategorium = this.IdCategorium,
-                Descricao = this.Descricao
+                IdCategorium = categorium.IdCategoria,
+                Descricao = categorium.Descricao
             };
             return dto;
         }

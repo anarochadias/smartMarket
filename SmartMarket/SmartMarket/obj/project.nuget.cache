@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bjQ9E0z3u+0JZgU0TvKophpl3K9xH8Z3XrgCcXcjVsMsMPy9KuqA1lBcV9eCMQ9y7/b2tCM9bd8Kf1YOrRtKrg==",
+  "dgSpecHash": "FhHryR2TWIH3eyziK7mzT1yRP6pP3qGhIqCz2eM0WPeURxGPXZt9wCECF/6RdhcWe6j5Lq/UgX91JyhPWrCnow==",
   "success": true,
-  "projectFilePath": "H:\\webdev2\\tp\\smartMarket\\SmartMarket\\SmartMarket\\SmartMarket.csproj",
+  "projectFilePath": "H:\\webdev2\\tp\\work here\\SmartMarket\\SmartMarket\\SmartMarket.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ana\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\ana\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
