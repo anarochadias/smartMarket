@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { LocalizacaoService } from '../localizacao.service';
 import { Localizacao } from '../localizacao';
 import { NgForm } from '@angular/forms';

@@ -6,6 +6,9 @@ import { MarcaComponent } from './marca.component';
 import { CreateMarcaComponent } from './create-marca/create-marca.component';
 import { ViewMarcaComponent } from './view-marca/view-marca.component';
 import { ViewAllMarcasComponent } from './view-all-marcas/view-all-marcas.component';
+import { FormsModule } from '@angular/forms';
+import { UpdateMarcaComponent } from './update-marca/update-marca.component';
+import { DeleteMarcaComponent } from './delete-marca/delete-marca.component';
 
 
 @NgModule({
@@ -13,11 +16,14 @@ import { ViewAllMarcasComponent } from './view-all-marcas/view-all-marcas.compon
     MarcaComponent,
     CreateMarcaComponent,
     ViewMarcaComponent,
-    ViewAllMarcasComponent
+    ViewAllMarcasComponent,
+    UpdateMarcaComponent,
+    DeleteMarcaComponent
   ],
   imports: [
     CommonModule,
-    MarcaRoutingModule
+    MarcaRoutingModule,
+    FormsModule
   ]
 })
 export class MarcaModule { }
