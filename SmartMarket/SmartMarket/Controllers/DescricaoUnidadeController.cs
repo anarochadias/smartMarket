@@ -60,6 +60,8 @@ namespace SmartMarket.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateDescricaoUnidade(int id, DescricaoUnidadeDto descricaoUnidade)
         {
+            descricaoUnidade.IdDescricaoUnidade = id;
+
             if (id != descricaoUnidade.IdDescricaoUnidade)
             {
                 return BadRequest();

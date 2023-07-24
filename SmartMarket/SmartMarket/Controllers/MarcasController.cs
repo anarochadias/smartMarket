@@ -59,6 +59,8 @@ namespace SmartMarket.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateMarca(int id, MarcaDto marca)
         {
+            marca.IdMarca = id;
+
             if (id != marca.IdMarca)
             {
                 return BadRequest();

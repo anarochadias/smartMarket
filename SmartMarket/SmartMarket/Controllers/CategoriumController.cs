@@ -56,6 +56,8 @@ namespace SmartMarket.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateCategorium(int id, CategoriumDto categorium)
         {
+            categorium.IdCategorium = id;
+
             if (id != categorium.IdCategorium)
             {
                 return BadRequest();

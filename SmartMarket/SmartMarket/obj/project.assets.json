@@ -3912,19 +3912,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ana\\.nuget\\packages\\": {}
+    "C:\\Users\\Claudia Quintas\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\webdev2\\tp\\work here\\SmartMarket\\SmartMarket\\SmartMarket.csproj",
+      "projectUniqueName": "C:\\Users\\Claudia Quintas\\Desktop\\UpSkill\\Bases de dados\\SmartMarket\\App\\pull\\SmartMarket\\SmartMarket\\SmartMarket.csproj",
       "projectName": "SmartMarket",
-      "projectPath": "H:\\webdev2\\tp\\work here\\SmartMarket\\SmartMarket\\SmartMarket.csproj",
-      "packagesPath": "C:\\Users\\ana\\.nuget\\packages\\",
-      "outputPath": "H:\\webdev2\\tp\\work here\\SmartMarket\\SmartMarket\\obj\\",
+      "projectPath": "C:\\Users\\Claudia Quintas\\Desktop\\UpSkill\\Bases de dados\\SmartMarket\\App\\pull\\SmartMarket\\SmartMarket\\SmartMarket.csproj",
+      "packagesPath": "C:\\Users\\Claudia Quintas\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Claudia Quintas\\Desktop\\UpSkill\\Bases de dados\\SmartMarket\\App\\pull\\SmartMarket\\SmartMarket\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Claudia Quintas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3932,7 +3932,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3999,7 +3998,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
