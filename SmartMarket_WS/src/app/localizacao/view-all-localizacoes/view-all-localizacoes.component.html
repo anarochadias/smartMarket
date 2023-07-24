@@ -1,23 +1,22 @@
 <section>
     <div class="container px-4 px-lg-5">
         <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justifycontent-center">
-            <div class="col mb-5" *ngFor="let categoria of categoriaList">
+            <div class="col mb-5" *ngFor="let local of localizacaoList"> <!--ngfor faz um for-->
                 <div class="card h-100">
-                    <!-- Categoria image-->
+                    <!-- Localização image-->
                     <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
-                    <!-- Categoria details-->
+                    <!-- Localização details-->
                     <div class="card-body p-4">
                         <div class="text-center">
-                            <!-- Categoria name and Id-->
-                            <h5 class="fw-bolder">{{categoria.CategoriaId}} - {{categoria.CategoriaName}}</h5>
+                            <!-- Localização name-->
+                            <h5 class="fw-bolder">{{local.idConcelho}} - {{local.concelho}}</h5>
                         </div>
                     </div>
-                    <!-- Categoria actions-->
+                    <!-- Localização actions-->
                     <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
                         <div class="text-center"><a class="btn btn-outline-dark mt-auto"
- 
-                                [href]="'categoria/view-categoria/' + '/view-categoria', local.CategoriaId]">View details</a></div>
-                        <!-- <div class="text-center"><a [routerLink]="['/view-categoria','PROD001']" class="btn btn-outline-dark mt-auto" >View details</a></div> -->
+                                [href]="'localizacao/view-localizacao/' + local.idConcelho">View details</a></div>
+                        <!-- <div class="text-center"><a [routerLink]="['/view-product','PROD001']" class="btn btn-outline-dark mt-auto" >View details</a></div> -->
                     </div>
                 </div>
             </div>

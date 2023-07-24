@@ -1,0 +1,20 @@
+<!--<p>update-localizacao works!</p>-->
+<section>
+    <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justifycontent-center">
+            <select (change)="onIndexChange(selectLocation.value)" class="col mb-5" #selectLocation> <!--ngfor faz um for-->
+                <option *ngFor="let local of localizacaoList" value="{{local.idConcelho}}"> {{local.concelho}}</option>
+            </select>
+            <form (submit)="onUpdate(updateLocalizacaoForm)" #updateLocalizacaoForm="ngForm">
+                <div class="form-row">
+                    <div class="form-group mt-3">
+                        <label for="inputName">Nome do Concelho</label>
+                        <input type="text" class="form-control" id="inputName" placeholder="Concelho" name="concelhoNameNew" ngModel>
+                    </div>
+                    <button type="submit" class="btn btn-primary mt-3">Update</button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</section>

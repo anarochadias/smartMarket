@@ -20,7 +20,8 @@ namespace SmartMarket.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Localizacao>>> GetLocalizacoes()
         {
-            return await _context.Localizacaos.ToListAsync();
+            var localizacoes = await _context.Localizacaos.ToListAsync();
+            return localizacoes;
         }
 
         // GET api/<LocalizacoesController>
@@ -58,6 +59,7 @@ namespace SmartMarket.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateLocalizacao(int id, LocalizacaoDto localizacao)
         {
+            localizacao.IdConcelho = id;
             if (id != localizacao.IdConcelho)
             {
                 return BadRequest();
