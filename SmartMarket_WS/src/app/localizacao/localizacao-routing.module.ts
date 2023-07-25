@@ -7,14 +7,12 @@ import { ViewAllLocalizacoesComponent } from './view-all-localizacoes/view-all-l
 import { DeleteLocalizacaoComponent } from './delete-localizacao/delete-localizacao.component';
 import { UpdateLocalizacaoComponent } from './update-localizacao/update-localizacao.component';
 
-const routes: Routes = [{
-  path: '', component: LocalizacaoComponent },
-  { path: 'create-localizacao', component: CreateLocalizacaoComponent },
-  { path: 'view-localizacao/:idConcelho', component: ViewLocalizacaoComponent },//changed--------------------------------------
-  { path: 'view-all-localizacoes', component: ViewAllLocalizacoesComponent },
-  { path: 'delete-localizacao', component: DeleteLocalizacaoComponent },
-  { path: 'update-localizacao', component: UpdateLocalizacaoComponent }
-
+const routes: Routes = [{ path: '', component: LocalizacaoComponent },
+{ path: 'create-localizacao', component: CreateLocalizacaoComponent },
+{ path: 'view-localizacao/:idConcelho', component: ViewLocalizacaoComponent },//changed--------------------------------------
+{ path: 'view-all-localizacoes', component: ViewAllLocalizacoesComponent },
+{ path: 'delete-localizacao', component: DeleteLocalizacaoComponent },
+{ path: 'update-localizacao', component: UpdateLocalizacaoComponent }
 ];
 
 @NgModule({
