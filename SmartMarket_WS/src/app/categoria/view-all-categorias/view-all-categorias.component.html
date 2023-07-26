@@ -1,25 +1,13 @@
 <section>
-    <div class="container px-4 px-lg-5">
-        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justifycontent-center">
-            <div class="col mb-5" *ngFor="let categoria of categoriasList">
-                <div class="card h-100">
-                    <!-- Categoria image-->
-                    <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
-                    <!-- Categoria details-->
-                    <div class="card-body p-4">
-                        <div class="text-center">
-                            <!-- Categoria name and Id-->
-                            <h5 class="fw-bolder">{{categoria.idCategoria}} - {{categoria.descricao}}</h5>
-                        </div>
-                    </div>
-                    <!-- Categoria actions-->
-                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                        <div class="text-center"><a class="btn btn-outline-dark mt-auto"
-                                [href]="'categoria/view-categoria/' + categoria.idCategoria">View details</a></div>
-                        <!-- <div class="text-center"><a [routerLink]="['/view-categoria','PROD001']" class="btn btn-outline-dark mt-auto" >View details</a></div> -->
-                    </div>
+    <div class="container">
+        <div class="row row-cols-4" *ngFor="let categoria of categoriasList">
+            <ul>
+                <div class="col">
+                    <li class="col"><a
+                            [href]="'categoria/view-categoria/' + categoria.idCategoria">{{categoria.descricao}}</a>
+                    </li>
                 </div>
-            </div>
+            </ul>
         </div>
     </div>
 </section>
