@@ -32,11 +32,14 @@
                     </div>
                     <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
                         <div class="text-center"><a class="btn btn-outline-dark mt-auto"
-                            [href]="'marca/view-marca/' + marca.idMarca">Update</a></div>
-                            <!-- <div *ngIf="showUp">
+                            (click)="showUpdate()">Update</a></div>
+                        <!-- <div class="text-center"><a class="btn btn-outline-dark mt-auto"
+                            [href]="'marca/view-marca/' + marca.idMarca">Update</a></div> -->
+                            <div *ngIf="showUp">
                                 <input type="text" placeholder="New brand name:" [(ngModel)]="newBrandUp" >
-                                <button ><a ></a>Create</button>                            
-                            </div> -->
+                                <!-- <button (click)="teste(marca.idMarca, newBrandUp)"><a ></a>Update</button>                             -->
+                                <button (click)="update.onUpdateId(marca.idMarca, newBrandUp)">Update</button>                            
+                            </div>
                     </div>
                 </div>
             </div>

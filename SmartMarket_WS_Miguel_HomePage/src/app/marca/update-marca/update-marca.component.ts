@@ -35,7 +35,6 @@ marcaList: Marca[]=[];
     
     onUpdateId(idMarca: number, descricao:string){
       let marca = {
-        idMarca: idMarca,
         descricao: descricao
       };
       console.log(idMarca, descricao);

@@ -28,6 +28,9 @@ export class ViewAllMarcasComponent implements OnInit {
     this.showUp = true; 
   }
   
+  teste(a:number, b:string){
+    console.log(a,b)
+  }
   newBrand: string="";
   newBrandUp: string="";
   
