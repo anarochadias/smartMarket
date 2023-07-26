@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { MarcaService } from '../marca.service';
-import { Marca } from '../marca';;
+import { Marca } from '../marca';
 @Component({
   selector: 'app-delete-marca',
   templateUrl: './delete-marca.component.html',
@@ -25,7 +25,14 @@ export class DeleteMarcaComponent implements OnInit{
     this.service.deleteLocalizacao(this.currentMarca).subscribe(data => {
       console.log(data);
     });
-    window.location.reload(); //NOVO
+    console.log(this.currentMarca);
+    // window.location.reload(); //NOVO
+  }
+  onDeleteId(id: number){
+    this.service.deleteLocalizacao(id).subscribe(data => {
+      console.log(data);
+    });
+    window.location.href="marca/view-all-marcas"; //NOVO
   }
 
 }

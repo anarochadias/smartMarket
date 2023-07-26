@@ -15,6 +15,15 @@ export class CreateMarcaComponent implements OnInit {
 
   ngOnInit(): void {}
 
+  createNewMarcaId(desc: string) {
+    let marca = {
+      descricao: desc,
+    };
+
+    this.service.createMarca(marca).subscribe((data) => console.log(data));
+
+    window.location.reload();
+  }
   createNewMarca(form: NgForm) {
     let marca = {
       descricao: form.value.marcaName,

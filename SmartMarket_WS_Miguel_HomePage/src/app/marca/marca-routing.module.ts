@@ -7,7 +7,7 @@ import {ViewMarcaComponent} from './view-marca/view-marca.component'
 import {DeleteMarcaComponent} from './delete-marca/delete-marca.component'
 import {UpdateMarcaComponent} from './update-marca/update-marca.component'
 
-const routes: Routes = [{ path: '', component: MarcaComponent },
+const routes: Routes = [{ path: '', component: ViewAllMarcasComponent },
 {path:'create-marca', component: CreateMarcaComponent},
 {path:'view-all-marcas', component: ViewAllMarcasComponent},
 {path: 'view-marca/:idMarca', component: ViewMarcaComponent},

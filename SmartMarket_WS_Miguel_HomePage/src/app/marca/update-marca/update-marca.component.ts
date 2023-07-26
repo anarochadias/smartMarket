@@ -32,5 +32,17 @@ marcaList: Marca[]=[];
       });
       window.location.reload(); //NOVO
     }
+    
+    onUpdateId(idMarca: number, descricao:string){
+      let marca = {
+        idMarca: idMarca,
+        descricao: descricao
+      };
+      console.log(idMarca, descricao);
+      this.service.updateLocalizacao(idMarca, marca).subscribe(data => {
+        console.log(data);
+      });
+      window.location.reload(); //NOVO
+    }
 }
 

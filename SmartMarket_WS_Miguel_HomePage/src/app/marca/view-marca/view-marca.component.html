@@ -7,11 +7,14 @@
                 <h1 class="display-5 fw-bolder">{{descricao}}</h1>
                 <div class="fs-5 mb-5">
                     <button><a href="./marca">Back to Brands</a></button>
-        
+                    <button id="updBtn" (click)="showUpdate()">Update</button>
+                    <button id="updBtn" (click)="dlMar.onDeleteId(idMarca)">Delete</button>
                 </div>
             </div>
         </div>
+        <div *ngIf="show">
+            <input type="text" placeholder="New brand name:" [(ngModel)]="newBrand" >
+            <button (click)="upMar.onUpdateId(idMarca, newBrand)" class="btn btn-primary mt-3">Save</button>
+        </div>
     </div>
 </section>
-
-<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDhuwDt6t9spSYphNpLZCq6mWuV2VyXLpU"></script>
