@@ -15,7 +15,7 @@ export class ViewCategoriaComponent implements OnInit {
   }
   ngOnInit(): void {
     this.activateRoute.params.subscribe(data => {
-      this.idCategoria = data['idCategoria']; //changed
+      this.idCategoria = data['idCategoria'];
     });
   this.service.getCategoria(this.idCategoria).subscribe(data => {
         this.idCategoria = data['idCategoria'];

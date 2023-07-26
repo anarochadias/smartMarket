@@ -1,6 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { MarcaService } from '../marca.service';
 import { ActivatedRoute } from '@angular/router';
+import { UpdateMarcaComponent } from '../update-marca/update-marca.component';
+import { DeleteMarcaComponent } from '../delete-marca/delete-marca.component';
+import { NgFor } from '@angular/common';
+import { NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-view-marca',
@@ -23,5 +27,20 @@ export class ViewMarcaComponent implements OnInit {
       this.descricao = data['descricao'];
     });
   }
-  getMarca() {}
+  //getMarca() {}
+  newBrand: string = "";
+  // update(form: NgForm) {
+  //   let upMar= new UpdateMarcaComponent(this.service)
+  //   upMar.onUpdate(form);
+  //   // window.location.reload(); //NOVO
+  // }
+
+  upMar= new UpdateMarcaComponent(this.service)
+
+  dlMar= new DeleteMarcaComponent(this.service)
+
+  show = false;
+  showUpdate(){
+    this.show = true;
+  }
 }

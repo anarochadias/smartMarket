@@ -89,7 +89,7 @@
             ],
             "tsConfig": "tsconfig.spec.json",
             "assets": [
-              "src/favicon.ico",
+              "src/shop_118074.ico",
               "src/assets"
             ],
             "styles": [

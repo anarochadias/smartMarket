@@ -8,9 +8,6 @@ import { SiteBaseModule } from './site-base/site-base.module';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 
-import { HomepageModule } from './homepage/homepage.module';
-//import { HomepageComponent } from './homepage/homepage.component';
-
 @NgModule({
   declarations: [
     AppComponent

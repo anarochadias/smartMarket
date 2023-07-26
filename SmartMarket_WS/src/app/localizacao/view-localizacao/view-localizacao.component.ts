@@ -16,7 +16,7 @@ export class ViewLocalizacaoComponent implements OnInit {
   ngOnInit(): void {
     this.activateRoute.params.subscribe(data => {
       console.log("primeiro"+this.concelhoId);
-      this.concelhoId = data['idConcelho']; //changed
+      this.concelhoId = data['idConcelho'];
       console.log("segundo"+this.concelhoId);
     });
     this.service.getLocalizacao(this.concelhoId).subscribe(data => {

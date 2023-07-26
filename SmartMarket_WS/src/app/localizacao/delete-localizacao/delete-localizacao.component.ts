@@ -19,7 +19,6 @@ export class DeleteLocalizacaoComponent  implements OnInit{
     }
     onIndexChange(idLocation: any){
       this.currentLocation = idLocation;
-      //console.log(this.currentLocation);
     }
     onDelete(){
       this.service.deleteLocalizacao(this.currentLocation).subscribe(data => {

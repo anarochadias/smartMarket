@@ -10,7 +10,7 @@ import { UpdateCategoriaComponent } from './update-categoria/update-categoria.co
 const routes: Routes = [{
   path: '', component: CategoriaComponent },
   { path: 'create-categoria', component: CreateCategoriaComponent },
-  { path: 'view-categoria/:idCategoria', component: ViewCategoriaComponent },//changed--------------------------------------
+  { path: 'view-categoria/:idCategoria', component: ViewCategoriaComponent },
   { path: 'delete-categoria', component: DeleteCategoriaComponent },
   { path: 'update-categoria', component: UpdateCategoriaComponent },
   { path: 'view-all-categorias', component: ViewAllCategoriasComponent }

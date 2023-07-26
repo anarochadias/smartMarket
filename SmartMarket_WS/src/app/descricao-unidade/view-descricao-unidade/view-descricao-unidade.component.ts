@@ -15,7 +15,7 @@ export class ViewDescricaoUnidadeComponent implements OnInit{
   }
   ngOnInit(): void {
     this.activateRoute.params.subscribe(data => {
-      this.idDescricaoUnidade = data['idDescricaoUnidade']; //changed
+      this.idDescricaoUnidade = data['idDescricaoUnidade'];
       console.log(this.idDescricaoUnidade);
     });
     this.service.getDescricaoUnidade(this.idDescricaoUnidade).subscribe(data => {

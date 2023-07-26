@@ -20,7 +20,7 @@ marcaList: Marca[]=[];
     }
     onIndexChange(idMarca: any){
       this.currentMarca = idMarca;
-      //console.log(this.currentLocation);
+      console.log(this.currentMarca);
     }
     onUpdate(form: NgForm){
       let marca = {
@@ -30,6 +30,18 @@ marcaList: Marca[]=[];
       this.service.updateLocalizacao(this.currentMarca, marca).subscribe(data => {
         console.log(data);
       });
+      window.location.reload(); //NOVO
+    }
+    
+    onUpdateId(idMarca: number, descricao:string){
+      let marca = {
+        descricao: descricao
+      };
+      console.log(idMarca, descricao);
+      this.service.updateLocalizacao(idMarca, marca).subscribe(data => {
+        console.log(data);
+      });
+      window.location.reload(); //NOVO
     }
 }
 

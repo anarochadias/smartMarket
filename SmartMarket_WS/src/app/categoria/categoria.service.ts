@@ -19,28 +19,27 @@ export class CategoriaService {
     const httpOptions = {
       headers: new HttpHeaders({
         'Content-Type': 'application/json'
-        // Adicione outros cabeçalhos, como autorização, se necessário.
       })
     };
-    return this.httpClient.post<Categoria>(this.apiUrl, categoriaBody, httpOptions); //return an observable
+    return this.httpClient.post<Categoria>(this.apiUrl, categoriaBody, httpOptions);
   }
 
 
   updateCategoria(id: number, categoriaBody: any): Observable<Categoria>{
-    return this.httpClient.put<Categoria>(this.apiUrl + "/" + id, categoriaBody); //return an observable
+    return this.httpClient.put<Categoria>(this.apiUrl + "/" + id, categoriaBody);
   }
 
   deleteCategoria(id: number): Observable<Categoria>{
-    return this.httpClient.delete<Categoria>(this.apiUrl + "/" + id); //return an observable
+    return this.httpClient.delete<Categoria>(this.apiUrl + "/" + id);
   }
 
   getCategoria(id: number): Observable<Categoria>{
-    return this.httpClient.get<Categoria>(this.apiUrl + "/" + id ); //return an observable
+    return this.httpClient.get<Categoria>(this.apiUrl + "/" + id );
   }
 
   getAllCategorias(): Observable<Categoria[]>{
     console.log(this.apiUrl);
 
-    return this.httpClient.get<Categoria[]>(this.apiUrl); //return an observable
+    return this.httpClient.get<Categoria[]>(this.apiUrl);
 }
 }

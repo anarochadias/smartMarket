@@ -20,29 +20,28 @@ export class LocalizacaoService {
     const httpOptions = {
       headers: new HttpHeaders({
         'Content-Type': 'application/json'
-        // Adicione outros cabeçalhos, como autorização, se necessário.
       })
     };
-    return this.httpClient.post<Localizacao>(this.apiUrl, localizacaoBody, httpOptions); //return an observable
+    return this.httpClient.post<Localizacao>(this.apiUrl, localizacaoBody, httpOptions);
   }
 
 
   updateLocalizacao(id: number, localizacaoBody: any): Observable<Localizacao>{
-    return this.httpClient.put<Localizacao>(this.apiUrl + "/" + id, localizacaoBody); //return an observable
+    return this.httpClient.put<Localizacao>(this.apiUrl + "/" + id, localizacaoBody);
   }
 
   deleteLocalizacao(id: number): Observable<Localizacao>{
-    return this.httpClient.delete<Localizacao>(this.apiUrl + "/" + id); //return an observable
+    return this.httpClient.delete<Localizacao>(this.apiUrl + "/" + id);
   }
 
   getLocalizacao(id: number): Observable<Localizacao>{
-    return this.httpClient.get<Localizacao>(this.apiUrl + "/" + id ); //return an observable
+    return this.httpClient.get<Localizacao>(this.apiUrl + "/" + id );
     
   }
 
   getAllLocalizacoes(): Observable<Localizacao[]>{
     console.log(this.apiUrl);
 
-    return this.httpClient.get<Localizacao[]>(this.apiUrl); //return an observable
+    return this.httpClient.get<Localizacao[]>(this.apiUrl);
 }
 }

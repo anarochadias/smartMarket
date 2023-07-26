@@ -20,7 +20,6 @@ export class DeleteCategoriaComponent implements OnInit {
   }
   onIndexChange(idCategoria: any) {
     this.categoriaId = idCategoria;
-    //console.log(this.currentLocation);
   }
   onDelete() {
     this.service.deleteCategoria(this.categoriaId).subscribe(data => {

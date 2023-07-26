@@ -11,7 +11,7 @@ import { UpdateDescricaoUnidadeComponent } from './update-descricao-unidade/upda
 const routes: Routes = [
   { path: '', component: DescricaoUnidadeComponent },
   { path: 'create-descricao-unidade', component: CreateDescricaoUnidadeComponent },
-  { path: 'view-descricao-unidade/:idDescricaoUnidade', component: ViewDescricaoUnidadeComponent },//changed--------------------------------------
+  { path: 'view-descricao-unidade/:idDescricaoUnidade', component: ViewDescricaoUnidadeComponent },
   { path: 'view-all-descricao-unidade', component: ViewAllDescricaoUnidadeComponent },
   { path: 'delete-descricao-unidade', component: DeleteDescricaoUnidadeComponent },
   { path: 'update-descricao-unidade', component: UpdateDescricaoUnidadeComponent }

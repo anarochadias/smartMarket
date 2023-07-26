@@ -20,7 +20,6 @@ export class UpdateCategoriaComponent {
     }
     onIndexChange(idCategoria: any){
       this.currentCategoria = idCategoria;
-      //console.log(this.currentLocation);
     }
     onUpdate(form: NgForm){
       let categoria = {

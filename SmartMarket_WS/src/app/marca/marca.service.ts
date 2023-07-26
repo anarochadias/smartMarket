@@ -18,26 +18,25 @@ export class MarcaService {
     const httpOptions = {
       headers: new HttpHeaders({
         'Content-Type': 'application/json',
-        // Adicione outros cabeçalhos, como autorização, se necessário.
       }),
     };
-    return this.httpClient.post<Marca>(this.apiUrl, marcaBody, httpOptions); //return an observable
+    return this.httpClient.post<Marca>(this.apiUrl, marcaBody, httpOptions);
   }
 
   getMarca(id: number): Observable<Marca> {
     console.log(this.apiUrl + '/' + id);
-    return this.httpClient.get<Marca>(this.apiUrl + '/' + id); //return an observable
+    return this.httpClient.get<Marca>(this.apiUrl + '/' + id);
   }
   getAllMarcas(): Observable<Marca[]> {
     console.log(this.apiUrl);
-    return this.httpClient.get<Marca[]>(this.apiUrl); //return an observable
+    return this.httpClient.get<Marca[]>(this.apiUrl);
   }
 
   deleteLocalizacao(id: number): Observable<Marca>{
-    return this.httpClient.delete<Marca>(this.apiUrl + "/" + id); //return an observable
+    return this.httpClient.delete<Marca>(this.apiUrl + "/" + id);
   }
 
   updateLocalizacao(id: number, localizacaoBody: any): Observable<Marca>{
-    return this.httpClient.put<Marca>(this.apiUrl + "/" + id, localizacaoBody); //return an observable
+    return this.httpClient.put<Marca>(this.apiUrl + "/" + id, localizacaoBody);
   }
 }

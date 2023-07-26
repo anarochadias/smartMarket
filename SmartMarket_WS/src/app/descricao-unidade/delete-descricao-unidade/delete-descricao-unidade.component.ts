@@ -19,7 +19,6 @@ export class DeleteDescricaoUnidadeComponent implements OnInit{
     }
     onIndexChange(idDescricaoUnidade: any){
       this.currentUnidade = idDescricaoUnidade;
-      //console.log(this.currentLocation);
     }
     onDelete(){
       this.service.deleteDescricaoUnidade(this.currentUnidade).subscribe(data => {

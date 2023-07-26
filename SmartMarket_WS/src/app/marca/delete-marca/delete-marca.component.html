@@ -1,12 +1,12 @@
-<!--<p>delete-localizacao works!</p>-->
 <section>
     <div class="container px-4 px-lg-5">
         <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justifycontent-center">
-            <select (change)="onIndexChange(selectMarca.value)" class="col mb-5" #selectMarca> <!--ngfor faz um for-->
-                <option selected disabled>Selecione uma marca</option>
+            <select (change)="onIndexChange(selectMarca.value)" class="col mb-5" #selectMarca>
+                <!--<option selected disabled>Select a brand</option>-->
                 <option *ngFor="let marca of marcaList" value="{{marca.idMarca}}"> {{marca.descricao}}</option>
             </select>
-            <button class="test" (click)="onDelete()">Apagar</button>
+            <button class="test" (click)="onDelete()">Delete</button>
+            <button><a href="./marca">Back to Brands</a></button>
         </div>
     </div>
 </section>

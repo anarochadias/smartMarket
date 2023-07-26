@@ -19,12 +19,18 @@ export class DeleteMarcaComponent implements OnInit{
   }
   onIndexChange(idMarca: any){
     this.currentMarca = idMarca;
-    //console.log(this.currentLocation);
   }
   onDelete(){
     this.service.deleteLocalizacao(this.currentMarca).subscribe(data => {
       console.log(data);
     });
+    console.log(this.currentMarca);
+    // window.location.reload(); //NOVO
   }
-
+  onDeleteId(id: number){
+    this.service.deleteLocalizacao(id).subscribe(data => {
+      console.log(data);
+    });
+    window.location.href="marca/view-all-marcas"; //NOVO
+  }
 }

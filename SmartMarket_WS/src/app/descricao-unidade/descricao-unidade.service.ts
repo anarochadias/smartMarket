@@ -19,27 +19,26 @@ export class DescricaoUnidadeService {
     const httpOptions = {
       headers: new HttpHeaders({
         'Content-Type': 'application/json'
-        // Adicione outros cabeçalhos, como autorização, se necessário.
       })
     };
-    return this.httpClient.post<DescricaoUnidade>(this.apiUrl, descricaoUnidadeBody, httpOptions); //return an observable
+    return this.httpClient.post<DescricaoUnidade>(this.apiUrl, descricaoUnidadeBody, httpOptions);
   }
 
 
   updateDescricaoUnidade(id: number, descricaoUnidadeBody: any): Observable<DescricaoUnidade>{
-    return this.httpClient.put<DescricaoUnidade>(this.apiUrl + "/" + id, descricaoUnidadeBody); //return an observable
+    return this.httpClient.put<DescricaoUnidade>(this.apiUrl + "/" + id, descricaoUnidadeBody);
   }
 
   deleteDescricaoUnidade(id: number): Observable<DescricaoUnidade>{
-    return this.httpClient.delete<DescricaoUnidade>(this.apiUrl + "/" + id); //return an observable
+    return this.httpClient.delete<DescricaoUnidade>(this.apiUrl + "/" + id);
   }
 
   getDescricaoUnidade(id: number): Observable<DescricaoUnidade>{
-    return this.httpClient.get<DescricaoUnidade>(this.apiUrl + "/" + id ); //return an observable
+    return this.httpClient.get<DescricaoUnidade>(this.apiUrl + "/" + id );
   }
 
   getAllDescricaoUnidade(): Observable<DescricaoUnidade[]>{
     console.log(this.apiUrl);
-    return this.httpClient.get<DescricaoUnidade[]>(this.apiUrl); //return an observable
+    return this.httpClient.get<DescricaoUnidade[]>(this.apiUrl);
 }
 }

@@ -9,7 +9,7 @@ import { UpdateLocalizacaoComponent } from './update-localizacao/update-localiza
 
 const routes: Routes = [{ path: '', component: LocalizacaoComponent },
 { path: 'create-localizacao', component: CreateLocalizacaoComponent },
-{ path: 'view-localizacao/:idConcelho', component: ViewLocalizacaoComponent },//changed--------------------------------------
+{ path: 'view-localizacao/:idConcelho', component: ViewLocalizacaoComponent },
 { path: 'view-all-localizacoes', component: ViewAllLocalizacoesComponent },
 { path: 'delete-localizacao', component: DeleteLocalizacaoComponent },
 { path: 'update-localizacao', component: UpdateLocalizacaoComponent }
