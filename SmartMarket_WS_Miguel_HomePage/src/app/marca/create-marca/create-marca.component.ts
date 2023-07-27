@@ -20,6 +20,9 @@ export class CreateMarcaComponent implements OnInit {
       descricao: desc,
     };
 
+    if (marca.descricao == "") {
+     return window.alert('Please insert brand.');
+    }
     this.service.createMarca(marca).subscribe((data) => console.log(data));
 
     window.location.reload();

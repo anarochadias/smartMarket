@@ -24,18 +24,23 @@ export class ViewAllMarcasComponent implements OnInit {
   showCreate(){
     this.show = true; 
   }
+  hideCreate(){
+    this.show = false; 
+  }
   showUpdate(){
     this.showUp = true; 
   }
   
-  teste(a:number, b:string){
-    console.log(a,b)
-  }
+
   newBrand: string="";
   newBrandUp: string="";
-  
+  passId: number=0;
   create = new CreateMarcaComponent(this.service);
   delete = new DeleteMarcaComponent(this.service);
   update = new UpdateMarcaComponent(this.service);
   
+  jumpoTo(section: string){
+    window.location.hash = '';
+    window.location.hash = section;
+  }
 }

@@ -1,10 +1,13 @@
-<button><a href="./marca">Back to Brands</a></button>
+<button><a href="./homepage">Back to Home</a></button>
 <button><a (click)="showCreate()">Create brand</a></button>
 
 <div *ngIf="show">   
-    <input type="text" placeholder="New brand name:" [(ngModel)]="newBrand" >
-    <button (click)="create.createNewMarcaId(newBrand)">Create</button>
-
+    <input type="text" placeholder="New brand name:" [(ngModel)]="newBrand" required>
+    <button (click)="create.createNewMarcaId(newBrand)">Create</button>   
+</div>
+<div *ngIf="showUp" id="showUpdate">
+    <input type="text" placeholder="New brand name:" [(ngModel)]="newBrandUp" required>
+    <button (click)="update.onUpdateId(passId, newBrandUp)" (click)="hideCreate()">Update</button>                            
 </div>
 <section>
     <div class="container px-4 px-lg-5">
@@ -32,17 +35,12 @@
                     </div>
                     <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
                         <div class="text-center"><a class="btn btn-outline-dark mt-auto"
-                            (click)="showUpdate()">Update</a></div>
+                            (click)="showUpdate()" (click)="passId=marca.idMarca" (click)="jumpoTo('showUpdate')">Update</a></div>
                         <!-- <div class="text-center"><a class="btn btn-outline-dark mt-auto"
                             [href]="'marca/view-marca/' + marca.idMarca">Update</a></div> -->
-                            <div *ngIf="showUp">
-                                <input type="text" placeholder="New brand name:" [(ngModel)]="newBrandUp" >
-                                <!-- <button (click)="teste(marca.idMarca, newBrandUp)"><a ></a>Update</button>                             -->
-                                <button (click)="update.onUpdateId(marca.idMarca, newBrandUp)">Update</button>                            
-                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 </section>

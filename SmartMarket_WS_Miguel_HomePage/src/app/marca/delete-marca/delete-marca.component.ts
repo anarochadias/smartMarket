@@ -26,9 +26,10 @@ export class DeleteMarcaComponent implements OnInit{
       console.log(data);
     });
     console.log(this.currentMarca);
-    // window.location.reload(); //NOVO
+    window.location.reload(); //NOVO
   }
   onDeleteId(id: number){
+    console.log(id);
     this.service.deleteLocalizacao(id).subscribe(data => {
       console.log(data);
     });

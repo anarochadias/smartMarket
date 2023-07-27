@@ -37,6 +37,10 @@ marcaList: Marca[]=[];
       let marca = {
         descricao: descricao
       };
+
+      if (marca.descricao == "") {
+        return window.alert('Please insert brand.');
+       }
       console.log(idMarca, descricao);
       this.service.updateLocalizacao(idMarca, marca).subscribe(data => {
         console.log(data);
