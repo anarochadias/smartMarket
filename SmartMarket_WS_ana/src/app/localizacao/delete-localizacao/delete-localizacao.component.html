@@ -1,0 +1,11 @@
+<section>
+    <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justifycontent-center">
+            <select (change)="onIndexChange(selectLocation.value)" class="col mb-5" #selectLocation>
+                <option selected disabled>Select a location</option>
+                <option *ngFor="let local of localizacaoList" value="{{local.idConcelho}}"> {{local.concelho}}</option>
+            </select>
+            <button class="test" (click)="onDelete()">Delete</button>
+        </div>
+    </div>
+</section>

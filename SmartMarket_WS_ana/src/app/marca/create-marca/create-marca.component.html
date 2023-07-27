@@ -1,0 +1,10 @@
+<form (submit)="createNewMarca(createMarcasForm)" #createMarcasForm="ngForm">
+    <div class="form-row">
+        <div class="form-group mt-3">
+            <label for="inputName">Brand name:</label>
+            <input type="text" class="form-control" id="inputName" placeholder="New brand" name="marcaName" ngModel>
+        </div>
+        <button type="submit" class="btn btn-primary mt-3">Insert</button>
+    </div>
+    <button><a href="./marca/view-all-marcas">Back to Brands</a></button>
+</form>

@@ -1,0 +1,9 @@
+<form (submit)="createNewCategoria(createCategoriaForm)" #createCategoriaForm="ngForm">
+    <div class="form-row"> 
+        <div class="form-group mt-3">
+            <label for="inputName">Category name:</label>
+            <input type="text" class="form-control" id="inputDescricao" placeholder="New category" name="descricaoCategoria" ngModel>
+        </div>
+        <button type="submit" class="btn btn-primary mt-3">Insert</button>
+    </div>
+</form>

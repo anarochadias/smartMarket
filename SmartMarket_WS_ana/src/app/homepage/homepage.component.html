@@ -1,0 +1,27 @@
+<h1>Suggested Products</h1>
+
+<section>
+    <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justifycontent-center">
+            <div class="col mb-5" *ngFor="let product of productList">
+                <div class="card h-100">
+                    <!-- Localização image-->
+                    <img class="card-img-top" src="https://media.istockphoto.com/id/862629000/pt/foto/sunglasses-lettuce.jpg?s=612x612&w=0&k=20&c=QjjSKe-_IM5grq47effPp6i9ZcW1-Ypu2ncnBcSFOD8=" alt="..." />
+                    <!-- Localização details-->
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <!-- Localização name-->
+                            <h5 class="fw-bolder">{{product.productName}} - {{product.productPrice}}</h5>
+                        </div>
+                    </div>
+                    <!-- Localização actions-->
+                    <!-- <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto"
+                                [href]="'localizacao/view-localizacao/' + local.idConcelho">View details</a></div> -->
+                        <!-- <div class="text-center"><a [routerLink]="['/view-product','PROD001']" class="btn btn-outline-dark mt-auto" >View details</a></div> -->
+                    <!-- </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
