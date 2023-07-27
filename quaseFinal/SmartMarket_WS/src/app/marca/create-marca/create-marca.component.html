@@ -1,0 +1,9 @@
+<a class="btn btn-outline-dark mt-auto text-center" style="position: relative; float: right;" href="./backoffice">Back
+    to back office</a>
+<br>
+<form (submit)="createNewMarca(createMarcasForm)" #createMarcasForm="ngForm">
+    <label for="inputName" >Brand name:
+        <input type="text" class="form-control" id="inputName" placeholder="New brand" name="marcaName" ngModel style="margin: 6%;">
+        <button type="submit" class="btn btn-outline-success" style="margin: 2%;">Insert brand</button>
+    </label>
+</form>

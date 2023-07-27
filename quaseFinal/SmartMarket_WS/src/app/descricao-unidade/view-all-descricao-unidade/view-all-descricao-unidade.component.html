@@ -1,0 +1,38 @@
+<section class="list-group-item" style="position: relative;">
+    <div>
+        <a class="btn btn-outline-dark mt-auto text-center" href="./backoffice"
+            style="position: relative; float: right; margin-left: 0.5%; margin-right: 0.5%;">Back to back office</a>
+        <a class="btn btn-outline-success mt-auto text-center" (click)="showCreate()" (click)="hideUpd()"
+            style="position: relative; float: right; margin-left: 0.5%; margin-right: 0.5%;">Insert unit</a>
+        <label *ngIf="show" style=" position: relative; float: left;">
+            <input type="text" placeholder="New unit" [(ngModel)]="newBrand"
+                style="position: relative; margin: 10px 10px 10px 10px;">
+            <a class="btn btn-outline-success mt-auto text-center" (click)="create.createNewDescricaoUnidadeId(newBrand)">Insert unit</a>
+        </label>
+        <label *ngIf="showUp" id="showUpdate" style="position: relative; float: left;">
+            <input type="text" placeholder="New unit name:" [(ngModel)]="newBrandUp" required
+                style="position: relative; margin: 10px 10px 10px 10px;">
+            <a class="btn btn-outline-warning mt-auto text-center" (click)="update.onUpdateId(passId, newBrandUp)"
+                (click)="hideCreate()">Update</a>
+        </label>
+    </div>
+</section>
+<br>
+<br>
+<br>
+<br>
+<section>
+    <div class="list-group">
+        <div class="row row-cols list-group-item" *ngFor="let unidade of descricaoUnidadeList">
+            <div class="col">{{unidade.descricao}}
+                <a class="btn btn-outline-dark mt-auto text-center" [href]="'descricao-unidade/view-descricao-unidade/' + unidade.idDescricaoUnidade"
+                    style="position: relative; float: right;margin-left: 0.5%; margin-right: 0.5%;">View details</a>
+                <a class="btn btn-outline-danger mt-auto" (click)="delete.onDeleteId(unidade.idDescricaoUnidade)"
+                    style="position: relative; float: right;margin-left: 0.5%; margin-right: 0.5%;">Delete</a>
+                <a class="btn btn-outline-warning mt-auto" (click)="showUpdate()" (click)="passId=unidade.idDescricaoUnidade"
+                    (click)="jumpoTo('showUpdate')" (click)="hideCreate()"
+                    style="position: relative; float: right; margin-left: 0.5%; margin-right: 0.5%;">Update</a>
+            </div>
+        </div>
+    </div>
+</section>
