@@ -1,0 +1,13 @@
+<section>
+    <div class="container">
+        <div class="row row-cols-4" *ngFor="let local of localizacaoList">
+            <ul>
+                <div class="col">
+                    <li class="col"><a
+                            [href]="'localizacao/view-localizacao/' + local.idConcelho">{{local.concelho}}</a>
+                    </li>
+                </div>
+            </ul>
+        </div>
+    </div>
+</section>
