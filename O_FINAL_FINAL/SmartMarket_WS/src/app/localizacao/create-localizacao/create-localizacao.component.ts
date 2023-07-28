@@ -10,7 +10,7 @@ import { NgForm } from '@angular/forms';
 })
 
 export class CreateLocalizacaoComponent implements OnInit {
-  descricao = '';
+  concelho = '';
 
   constructor(private service: LocalizacaoService) {
   }
@@ -18,10 +18,10 @@ export class CreateLocalizacaoComponent implements OnInit {
 
 createNewLocalizacaoId(desc: string) {
     let localizacao = {
-      descricao: desc,
+      concelho: desc,
     };
 
-    if (localizacao.descricao == "") {
+    if (localizacao.concelho == "") {
       return window.alert('Please insert the location name.');
      }
 
@@ -33,10 +33,10 @@ createNewLocalizacaoId(desc: string) {
 
   createNewLocalizacao(form: NgForm) {
     let localizacao = {
-      descricao: form.value.concelhoName,
+      concelho: form.value.concelhoName,
     };
 
-    if (localizacao.descricao == "") {
+    if (localizacao.concelho == "") {
       return window.alert('Please insert the location name.');
      }
 

@@ -24,10 +24,10 @@ export class UpdateLocalizacaoComponent {
   }
   onUpdate(form: NgForm) {
     let localizacao = {
-      descricao: form.value.concelhoName
+      concelho: form.value.concelhoName
     };
 
-    if (localizacao.descricao == "") {
+    if (localizacao.concelho == "") {
       return window.alert('Please insert the new location name.');
     }
 
@@ -43,15 +43,15 @@ export class UpdateLocalizacaoComponent {
     window.alert('Location updated successfully.')
   }
 
-  onUpdateId(idConcelho: number, descricao: string) {
+  onUpdateId(idConcelho: number, concelho: string) {
     let localizacao = {
-      descricao: descricao
+      concelho: concelho
     };
 
-    if (localizacao.descricao == "") {
+    if (localizacao.concelho == "") {
       return window.alert('Please insert the new location name.');
     }
-    console.log(idConcelho, descricao);
+    console.log(idConcelho, concelho);
     this.service.updateLocalizacao(idConcelho, localizacao).subscribe(data => {
       console.log(data);
     });
