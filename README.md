@@ -40,7 +40,7 @@ Now the database is comprised of a few files:
 <li>Inserted Data-> some data we inserted in the database</li>
 <li>Procedures and Stored Procedures -> that have all the procedures created for the database, that included insert, update and delete for each table</li>
 <li>Trigger -> a trigger that completed the Historico Table </li>
-<li>Vies -> some views that we found pertinent for the database</li>
+<li>Views -> some views that we found pertinent for the database</li>
 
 <h2 id="API"> API </h2>
 
