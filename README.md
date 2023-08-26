@@ -111,6 +111,3 @@ Elements of the Angular we used:
 6. **Forms**: Angular offers a sophisticated forms module for handling user input. Reactive Forms use an explicit and reactive approach to form handling, while Template-driven Forms are more declarative and rely on Angular's template syntax.
 
 7. **HTTP Client**: The `HttpClientModule` provides a way to make HTTP requests to APIs and external services. It offers methods to send different types of HTTP requests and handles responses in an observable-based manner.
-
-
-
